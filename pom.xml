@@ -6,7 +6,7 @@
 
     <groupId>com.github.cims-bioko</groupId>
     <artifactId>validate</artifactId>
-    <version>1.11.0</version>
+    <version>1.0</version>
 
     <name>CIMS Validate</name>
     <description>
