@@ -15,7 +15,7 @@ public class ResultBuilder implements StatusHandler {
         messages.add(msg);
     }
 
-    public Result buildResult() {
+    public com.github.cimsbioko.validate.Result buildResult() {
         return new Result(hasFailed(), messages);
     }
 
