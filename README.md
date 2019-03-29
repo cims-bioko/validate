@@ -3,7 +3,7 @@
 A non-visual, tool-centric ODK xform validation library. Unlike ODK Validate, 
 this library does not bundle any dependencies, such as a logging 
 implementation. It also does not attempt to provide a user-interface, instead
-deferring that toother downstream projects.
+deferring that to other downstream projects.
 
 ## Why?
 
