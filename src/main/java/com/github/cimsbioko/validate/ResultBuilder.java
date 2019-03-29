@@ -15,7 +15,7 @@ public class ResultBuilder implements StatusHandler {
         messages.add(msg);
     }
 
-    Result buildResult() {
+    public Result buildResult() {
         return new Result(hasFailed(), messages);
     }
 
