@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:jr="http://openrosa.org/javarosa">
+    <h:head>
+        <h:title>Empty Group</h:title>
+        <model>
+            <instance>
+                <data id="simplest" version="1">
+                    <meta>
+                        <instanceID/>
+                    </meta>
+                    <select/>
+                </data>
+            </instance>
+            <bind nodeset="/data/meta/instanceID" type="string" readonly="true()" calculate="concat('uuid:', uuid())"/>
+            <bind nodeset="/data/select" type="select1" />
+        </model>
+    </h:head>
+    <select1 ref="/data/select">
+        <label>a select question</label>
+    </select1>
+</h:html>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:jr="http://openrosa.org/javarosa">
+    <h:head>
+        <h:title>Simplest</h:title>
+        <model>
+            <instance>
+                <data id="simplest" version="1">
+                    <meta>
+                        <instanceID/>
+                    </meta>
+                </data>
+            </instance>
+            <bind nodeset="/data/meta/instanceID" type="string" readonly="huh?" calculate="concat('uuid:', uuid())"/>
+        </model>
+    </h:head>
+</h:html>
