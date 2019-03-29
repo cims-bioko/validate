@@ -7,7 +7,7 @@ import java.util.List;
 import static com.github.cimsbioko.validate.Throwables.getStackTrace;
 import static java.lang.System.lineSeparator;
 
-class ResultBuilder implements StatusHandler {
+public class ResultBuilder implements StatusHandler {
 
     private final List<Message> messages = new LinkedList<>();
 

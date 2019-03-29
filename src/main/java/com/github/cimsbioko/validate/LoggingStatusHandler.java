@@ -3,7 +3,7 @@ package com.github.cimsbioko.validate;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-class LoggingStatusHandler implements StatusHandler {
+public class LoggingStatusHandler implements StatusHandler {
 
     private static final Logger log = LoggerFactory.getLogger(LoggingStatusHandler.class);
 
