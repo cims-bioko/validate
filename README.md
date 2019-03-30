@@ -1,5 +1,7 @@
 # CIMS Validate
 
+[![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.github.cims-bioko/validate/badge.svg?style=flat)](http://mvnrepository.com/artifact/com.github.cims-bioko/validate)
+
 A non-visual, tool-centric ODK xform validation library. Unlike ODK Validate, 
 this library does not bundle any dependencies, such as a logging 
 implementation. It also does not attempt to provide a user-interface, instead
