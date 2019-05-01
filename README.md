@@ -14,7 +14,8 @@ from the fact that it was built with Java's Swing toolkit. It also bundles an
 slf4j provider implementation within the jar, making it unsuitable for use
 with projects that use slf4j (most projects). This library is essentially the
 same thing, but built for a single purpose: providing a reliable validation
-library for downstream tools.
+library for downstream tools. Changes to the original code are intentionally 
+kept minimal to allow for easily tracking with changes in ODK.
 
 ## Requirements
 
